@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/jmontanholi/NFT-PREVIEW-CARD-COMPONENT-MAIN
-- Live Site URL: https://jmontanholi.github.io/NFT-PREVIEW-CARD-COMPONENT-MAIN/
+- Solution URL: https://github.com/jmontanholi/ORDER-SUMMARY-COMPONENT-MAIN
+- Live Site URL: https://jmontanholi.github.io/ORDER-SUMMARY-COMPONENT-MAIN/
 
 ## My process
 
