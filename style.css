@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+body {
+  height: 98vh;
+  background: url(./images/pattern-background-desktop.svg) no-repeat, linear-gradient(90deg, hsl(225, 100%, 94%), hsl(225, 100%, 94%));
+  background-position: 0 -5rem;
+  background-size: 100%;
+  font-family: 'Red Hat Display', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  width: 500px;
+  height: 45rem;
+  border-radius: 20px;
+}
+
+.mainImg {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 1rem;
+}
+
+.contentDiv {
+  text-align: center;
+}
+
+.title {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  font-size: 2rem;
+}
+
+.description {
+  width: 60%;
+  margin: auto;
+  color: hsl(224, 23%, 55%);
+}
+
+.priceDiv {
+  display: flex;
+  border-radius: 15px;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(225, 100%, 98%);
+  padding-right: 1.5rem;
+  margin-top: 2rem;
+}
+
+.priceDiv a {
+  color: hsl(245, 75%, 52%);
+}
+
+.priceDiv a:hover {
+  color: hsla(245, 75%, 52%, 0.616);
+  text-decoration: none;
+}
+
+.priceText {
+  width: 50%;
+  color: hsl(224, 23%, 55%);
+  margin-right: 2rem;
+}
+
+.priceText span {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  text-align: center;
+}
+
+.musicIcon {
+  height: 50px;
+}
+
+.buttonsDiv {
+  width: 70%;
+  margin: auto;
+}
+
+.buttonsDiv button {
+  width: 100%;
+}
+
+.proceed {
+  height: 3rem;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 10px;
+  margin: 2rem 0 2rem 0;
+  box-shadow: 5px 17px 5px rgb(226, 226, 226);
+  font-weight: 600;
+  font-size: 17px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.proceed:hover {
+  cursor: pointer;
+  background-color: hsla(245, 75%, 52%, 0.63);
+}
+
+.cancel {
+  background-color: transparent;
+  border: none;
+  font-weight: 900;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
